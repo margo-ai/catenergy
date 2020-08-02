@@ -1306,7 +1306,7 @@ fieldset {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("../../img/gift-background.jpg") no-repeat 0 0;
+  background: url("../img/gift-background.jpg") no-repeat 0 0;
   background-size: auto auto; }
   .extra__gift p {
     font-size: 16px;
@@ -1347,7 +1347,7 @@ fieldset {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: url("../../img/gift-background-tablet.jpg") no-repeat 0 0;
+    background: url("../img/gift-background-tablet.jpg") no-repeat 0 0;
     background-size: auto auto; }
     .extra__gift .gift__image {
       margin-bottom: 0; } }
@@ -1384,7 +1384,7 @@ fieldset {
     padding: 40px;
     padding-top: 65px;
     flex-direction: column;
-    background: url("../../img/gift-background-desktop.jpg") no-repeat 0 0;
+    background: url("../img/gift-background-desktop.jpg") no-repeat 0 0;
     background-size: auto auto; }
   .desktop-wrapper {
     display: flex;
