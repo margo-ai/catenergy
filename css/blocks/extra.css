@@ -38,7 +38,7 @@
 .extra__gift {
   margin-top: 35px;
   margin-bottom: 35px;
-  background: url("../../img/gift-background.jpg") no-repeat 0 0;
+  background: url("../img/gift-background.jpg") no-repeat 0 0;
   background-size: auto auto; }
   .extra__gift p {
     font-size: 16px;
