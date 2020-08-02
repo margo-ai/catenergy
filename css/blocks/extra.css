@@ -1,0 +1,48 @@
+.extra {
+  padding-top: 30px; }
+  .extra .extra__wrapper {
+    width: 280px;
+    padding: 0 20px; }
+  .extra .extra__title {
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 30px; }
+
+.extra__list {
+  list-style: none; }
+
+.extra__item {
+  padding-top: 14px;
+  padding-bottom: 16px;
+  border-top: 1px solid #cdcdcd; }
+  .extra__item b {
+    line-height: 16px; }
+  .extra__item span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 14px; }
+  .extra__item a {
+    display: block;
+    width: 280px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #68b738; }
+
+.extra__item:last-child {
+  border-bottom: 1px solid #cdcdcd; }
+
+.extra__gift {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  background: url("../../img/gift-background.jpg") no-repeat 0 0;
+  background-size: auto auto; }
+  .extra__gift p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff; }
+
+/*# sourceMappingURL=extra.css.map */

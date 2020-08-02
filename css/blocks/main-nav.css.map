@@ -1,0 +1,1 @@
+{"version":3,"file":"main-nav.css","sources":["blocks/main-nav.scss"],"sourcesContent":[".main-nav {\r\n  .main-nav__list {\r\n    list-style: none;\r\n  }\r\n}"],"names":[],"mappings":"AAAA,AACE,SADO,CACP,eAAe,CAAC;EACd,UAAU,EAAE,IAAI,GACjB"}

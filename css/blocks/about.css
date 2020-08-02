@@ -1,0 +1,33 @@
+.about {
+  background: url("../../img/index-background-mobile.png") no-repeat 0 0;
+  background-size: auto;
+  color: #ffffff; }
+  .about .about__wrapper {
+    width: 280px;
+    padding: 0 20px; }
+  .about h2 {
+    line-height: 36px;
+    color: #ffffff; }
+  .about p {
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    text-transform: uppercase; }
+  .about a {
+    display: block;
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #68b738; }
+
+@media (min-width: 768px) {
+  .about .about__wrapper {
+    width: 708px;
+    padding: 0 30px;
+    margin: 0 auto; } }
+
+/*# sourceMappingURL=about.css.map */

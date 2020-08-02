@@ -1,0 +1,1 @@
+{"version":3,"file":"variables.css","sources":["core/variables.scss"],"sourcesContent":["//настройки и переменные для всего проекта: размеры шрифтов, цвета, макс. ширина и т.д.\r\n$tablet-width: 768px;\r\n$desktop-width: 1440px;\r\n$mobile-width-only: 767px;"],"names":[],"mappings":""}

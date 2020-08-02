@@ -1,0 +1,26 @@
+.advantages {
+  padding-top: 32px;
+  padding-bottom: 42px; }
+  .advantages .advantages__wrapper {
+    width: 280px;
+    padding: 0 20px; }
+  .advantages .advantages__list {
+    list-style: none; }
+  .advantages h2 {
+    font-size: 36px;
+    line-height: 60px;
+    font-weight: 400; }
+  .advantages p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px; }
+
+.advantages__item .green-background {
+  width: 60px;
+  height: 60px;
+  background-color: #68b738;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=advantages.css.map */
