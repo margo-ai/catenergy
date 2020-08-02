@@ -1,0 +1,275 @@
+.example {  
+  padding-top: 30px;
+  padding-bottom: 40px;
+
+  background-color: #f2f2f2;
+   
+  h2 {
+    margin-bottom: 20px;
+  }
+ 
+  .example__description {
+    margin-bottom: 25px;
+  }
+
+  .example__price {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    
+    text-align: center;
+
+    margin-bottom: 40px;
+    margin-left: 44px;
+    
+    br {
+      display: none;
+    }
+  }
+
+  .before-after {
+    display: flex;
+    justify-content: center;
+  }
+
+  .before-after__label {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    padding-bottom: 5px;
+
+    border-bottom: 1px dotted #bebebe;
+  }
+}
+
+.example__details__wrapper {
+  display: flex;   
+  flex-wrap: wrap;
+  justify-content: space-between;   
+
+
+}
+
+.example__details {
+  flex-basis: auto;
+  
+  width: 124px;
+  height: 75px;
+ 
+  margin-bottom: 30;
+
+  border: 1px solid #cdcdcd;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+ 
+  .example__details-value {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .example__details-field {
+    font-size: 12px;
+    line-height: 12px;
+
+    text-align: center;
+  } 
+}
+
+.range-controls {
+  position: relative;
+  margin: 0 20px;
+
+  .scale {
+    width: 180px;
+    height: 4px;
+    background: #dcdcdc;
+    border-radius: 3px;
+  }
+
+  .range-toggle {
+    position: absolute;
+    top: -14px;
+    left: 42%;
+
+    width: 8px;
+    height: 8px;
+
+    background: #68b738;
+
+    border: 12px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 3px 1px rgba(0, 1, 1, 0.2);
+    cursor: pointer;
+
+    &:hover,
+    &:focus,
+    &:active {
+      box-shadow: 0 0 3px 2px #6bb83c;
+    }
+  }
+}
+
+.before-after__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: $tablet-width) {
+  .example {
+    margin-top: 50px;
+    
+    padding-bottom: 70px;
+
+    background-color: #ffffff;
+
+    border-bottom: 2px solid #e6e6e6;
+
+    h2 {
+      font-size: 60px;
+      line-height: 60px;
+
+      margin-bottom: 60px;
+    }
+
+    .example__description {
+      font-size: 16px;
+      line-height: 24px;
+
+      margin-bottom: 55px;
+    }
+    
+    .before-after__label {
+      font-size: 20px;
+      line-height: 20px;
+    }
+  }
+
+  .example__details {
+    width: 162px;
+    height: 90px;
+
+    margin-bottom: 0;
+
+    .example__details-value {
+      font-size: 30px;
+      line-height: 36px;
+    }
+
+    .example__details-field {
+      font-size: 14px;
+      line-height: 14px;
+    }
+  }
+
+  .example__details__wrapper {
+    justify-content: flex-start;
+    align-items: center;
+
+    margin-bottom: 82px;
+    
+  }
+
+  .example__details:first-child {
+    margin-right: 42px;
+  }
+
+
+  .example .example__price {
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: auto;
+
+    text-align: right;
+
+    br {
+      display: inline;
+    }
+  }
+
+  .before-after__wrapper {
+    justify-content: center;
+  }
+  .before-after .before-cat,
+  .before-after .after-cat {
+    height: 518px;
+  }
+
+  .range-controls {
+    margin: 0 25px;
+    .scale {
+      width: 428px;
+      height: 6px;
+    }
+
+    .range-toggle {
+      left: 48%;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .example {
+    margin: 0;
+    padding-top: 0;
+
+    border-bottom: 0;
+
+    background-color: #f2f2f2;
+    
+    h2 {
+      margin-top: 30px;
+      margin-bottom: 105px;
+    }
+    .container {
+      height: 600px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .example__description {
+      width: 450px;
+    }
+  }
+
+  .example .example__price {
+    margin-left: 0;
+
+    margin-top: 65px;
+    margin-bottom: 0;
+
+    br {
+      display: none;
+    }
+  }
+
+  .example__details__wrapper {
+    width: 370px;
+
+    margin-bottom: 0;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .before-after__wrapper {
+    margin-top: -10px;
+  }
+}

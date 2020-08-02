@@ -1,0 +1,179 @@
+.about {
+  color: #ffffff;
+  text-align: center;
+
+    
+  h2 {    
+    line-height: 36px;
+    color: #ffffff;
+
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  p {    
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+    margin-bottom: 30px;
+  }
+
+  a {
+    width: 280px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+    color: #ffffff;
+    background-color: #68b738;
+  }
+}
+
+.about .container {
+  position: relative;
+}
+
+.about .green-background {
+  position: absolute;
+    
+  top: 0;
+  left: 0;
+    
+  z-index: -1;
+}
+
+
+
+@media (min-width: $tablet-width) {
+  
+  .container {
+    width: 708px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+
+  .about {
+    background-image: none;
+
+    text-align: left;
+
+    height: 850px;
+
+    h2 {
+      font-family: 'Oswald', sans-serif;
+
+      font-size: 60px;
+      line-height: 60px;
+  
+      color: #111111;
+
+      padding-top: 40px;
+      padding-left: 90px;
+      margin-bottom: 32px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: 500;
+      color: #111111;
+
+      padding-left: 90px;
+
+      margin-bottom: 50px;
+    }
+
+    a {
+      width: 245px;
+      height: 52px;
+
+      font-size: 20px;
+      line-height: 20px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      margin-left: 90px;
+    }
+
+   
+    .container .about__food-image {      
+      width: 709px;     
+      height: auto; 
+
+      position: absolute;
+      top: 240px;
+
+      z-index: -1;
+    }  
+  }  
+
+  .about .green-background {
+    display: none;
+  }
+}
+
+
+@media (min-width: $desktop-width) {
+  .container {
+    width: 1220px;
+    padding: 0 110px;
+    margin: 0 auto;
+  }
+  
+  .about {
+    .container .about__food-image {
+      width: 552px;
+      height: auto;
+
+      position: absolute;
+      top: 30px;
+      left: 560px;
+  
+      z-index: 0;
+    }
+  }
+
+  .about .green-background {
+    display: block;
+
+    top: 0;
+    left: auto;
+    right: 0;
+    width: 720px;
+  }
+    
+  
+
+  .about {
+
+    height: 700px;    
+
+    h2 {           
+      padding-top: 80px;
+      padding-left: 80px;
+      margin-bottom: 32px;
+    }
+
+    p {
+      padding-left: 80px;
+    }
+
+    a {
+      margin-left: 80px;
+    }
+  }
+
+}

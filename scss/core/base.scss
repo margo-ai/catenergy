@@ -1,0 +1,71 @@
+//для общих правил body, a, input и т.д
+body {  
+  min-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.container {
+  width: 280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+h2 {  
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 400;
+
+  color: #000000;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+b {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.button-green {
+  &:hover,
+  &:focus {
+    background-color: #5eaa2f;
+  }
+  &:active {
+    color: #8fc46e;
+  }
+}
+
+$tablet-width: 768px;
+$desktop-width: 1440px;
