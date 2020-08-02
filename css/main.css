@@ -1543,7 +1543,7 @@ textarea::placeholder {
   left: -40px;
   width: 21px;
   height: 16px;
-  background-image: url("../../img/checkbox-checked.svg");
+  background-image: url("../img/checkbox-checked.svg");
   background-repeat: no-repeat;
   background-position: 0 0; }
 
